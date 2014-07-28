@@ -1,0 +1,26 @@
+root = true
+
+[package.json]
+indent_style = space
+indent_size = 2
+quote_type = double
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.js, **/*.js]
+indent_style = spaces
+indent_size = 4
+quote_type = single
+spaces_around_operators = true
+
+[*.sublime-project]
+indent_style = spaces
+indent_size = 2
+quote_type = double
+
+[!node_modules/**]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
