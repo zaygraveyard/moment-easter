@@ -1,7 +1,7 @@
 'use strict';
 
 var moment;
-if (require !== undefined) {
+if (typeof require !== 'undefined') {
     moment = require('moment');
 } else {
     moment = this.moment;
@@ -100,7 +100,7 @@ moment.fn.easter = function () {
     return moment.easter(this.year());
 };
 
-if (module !== undefined) {
+if (typeof module !== 'undefined') {
     module.exports = moment;
 } else {
     this.moment = moment;
