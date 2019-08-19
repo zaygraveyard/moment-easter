@@ -1,20 +1,24 @@
 {
   "name": "moment-easter",
   "description": "This plugin provides a way to get the date of Gregorian Easter Sunday for a given year.",
-  "version": "0.1.0",
-  "keywords": ["moment", "easter", "gregorian"],
+  "version": "0.1.1",
+  "keywords": [
+    "moment",
+    "easter",
+    "gregorian"
+  ],
   "author": "Ziad El Khoury Hanna <ziad.khoury.h@gmail.com>",
   "main": "./moment.easter",
   "repository": {
-    "type" : "git",
-    "url" : "git://github.com/zaygraveyard/moment-easter.git"
+    "type": "git",
+    "url": "git://github.com/zaygraveyard/moment-easter.git"
   },
   "bugs": {
     "url": "https://github.com/zaygraveyard/moment-easter/issues"
   },
   "license": {
-    "type" : "MIT",
-    "url" : "https://github.com/zaygraveyard/moment-easter/raw/master/LICENSE"
+    "type": "MIT",
+    "url": "https://github.com/zaygraveyard/moment-easter/raw/master/LICENSE"
   },
   "engines": {
     "node": "*"
